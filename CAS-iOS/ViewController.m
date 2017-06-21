@@ -1,34 +1,32 @@
-# CAS-iOS
-CAS Client for iOS(using Restful API)
+//
+//  ViewController.m
+//  CAS-iOS
+//
+//  Created by Bill Hu on 2017/6/21.
+//  Copyright © 2017年 ifLab. All rights reserved.
+//
 
-## How To Get Started
+#import "ViewController.h"
+#import "CAS.h"
 
-#### Podfile
+@interface ViewController ()
 
-```
-source 'https://github.com/billhu1996/CAS-iOS.git'
-platform :ios, '10.0'
+@end
 
-target 'TargetName' do
-  use_frameworks!
-  pod 'CAS-iOS'
-end
-```
+@implementation ViewController
 
-```
-
+- (void)viewDidLoad {
+    [super viewDidLoad];
     NSString *loginURL = @"";
     [CAS defaultCAS].casServer = @"";
     [CAS defaultCAS].path = @"";
-    //Get TGT
     [[CAS defaultCAS] requestTGTWithUsername:@"" password:@"" callBackBlock:^(NSString * tgt, NSError * error) {
         if (!error) {
             NSLog(@"%@", tgt);
-            //Get ST
+            
             [[CAS defaultCAS] requestSTForService:loginURL callBackBlock:^(NSString *st, NSError *error) {
                 if (!error) {
                     NSLog(@"%@", st);
-                    //Using ST
                     NSString *url = [NSString stringWithFormat:@"%@?ticket=%@", loginURL, st];
                     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
                     [[CAS defaultCAS] sendrequestWithRequest:req callBackBlock:^(NSData *data, NSURLResponse *resp, NSError *error) {
@@ -47,5 +45,6 @@ end
             NSLog(@"%@", error);
         }
     }];
+}
 
-```
+@end

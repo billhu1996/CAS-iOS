@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9F0FFB11EF9FF77007168C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0FFB01EF9FF77007168C8 /* main.m */; };
+		A9F0FFB41EF9FF77007168C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0FFB31EF9FF77007168C8 /* AppDelegate.m */; };
+		A9F0FFB71EF9FF77007168C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0FFB61EF9FF77007168C8 /* ViewController.m */; };
+		A9F0FFBA1EF9FF77007168C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F0FFB81EF9FF77007168C8 /* Main.storyboard */; };
+		A9F0FFBC1EF9FF77007168C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F0FFBB1EF9FF77007168C8 /* Assets.xcassets */; };
+		A9F0FFBF1EF9FF77007168C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F0FFBD1EF9FF77007168C8 /* LaunchScreen.storyboard */; };
+		A9F0FFC91EFA004D007168C8 /* CAS.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0FFC81EFA004D007168C8 /* CAS.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9F0FFAC1EF9FF77007168C8 /* CAS-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAS-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F0FFB01EF9FF77007168C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9F0FFB21EF9FF77007168C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9F0FFB31EF9FF77007168C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9F0FFB51EF9FF77007168C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9F0FFB61EF9FF77007168C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9F0FFB91EF9FF77007168C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9F0FFBB1EF9FF77007168C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9F0FFBE1EF9FF77007168C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9F0FFC01EF9FF77007168C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F0FFC71EFA004D007168C8 /* CAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAS.h; path = CAS/CAS.h; sourceTree = "<group>"; };
+		A9F0FFC81EFA004D007168C8 /* CAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAS.m; path = CAS/CAS.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9F0FFA91EF9FF77007168C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9F0FFA31EF9FF77007168C8 = {
+			isa = PBXGroup;
+			children = (
+				A9F0FFAE1EF9FF77007168C8 /* CAS-iOS */,
+				A9F0FFAD1EF9FF77007168C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9F0FFAD1EF9FF77007168C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0FFAC1EF9FF77007168C8 /* CAS-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9F0FFAE1EF9FF77007168C8 /* CAS-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0FFC61EFA003B007168C8 /* CAS */,
+				A9F0FFB21EF9FF77007168C8 /* AppDelegate.h */,
+				A9F0FFB31EF9FF77007168C8 /* AppDelegate.m */,
+				A9F0FFB51EF9FF77007168C8 /* ViewController.h */,
+				A9F0FFB61EF9FF77007168C8 /* ViewController.m */,
+				A9F0FFB81EF9FF77007168C8 /* Main.storyboard */,
+				A9F0FFBB1EF9FF77007168C8 /* Assets.xcassets */,
+				A9F0FFBD1EF9FF77007168C8 /* LaunchScreen.storyboard */,
+				A9F0FFC01EF9FF77007168C8 /* Info.plist */,
+				A9F0FFAF1EF9FF77007168C8 /* Supporting Files */,
+			);
+			path = "CAS-iOS";
+			sourceTree = "<group>";
+		};
+		A9F0FFAF1EF9FF77007168C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0FFB01EF9FF77007168C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9F0FFC61EFA003B007168C8 /* CAS */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0FFC71EFA004D007168C8 /* CAS.h */,
+				A9F0FFC81EFA004D007168C8 /* CAS.m */,
+			);
+			name = CAS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F0FFAB1EF9FF77007168C8 /* CAS-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F0FFC31EF9FF77007168C8 /* Build configuration list for PBXNativeTarget "CAS-iOS" */;
+			buildPhases = (
+				A9F0FFA81EF9FF77007168C8 /* Sources */,
+				A9F0FFA91EF9FF77007168C8 /* Frameworks */,
+				A9F0FFAA1EF9FF77007168C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAS-iOS";
+			productName = "CAS-iOS";
+			productReference = A9F0FFAC1EF9FF77007168C8 /* CAS-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9F0FFA41EF9FF77007168C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ifLab;
+				TargetAttributes = {
+					A9F0FFAB1EF9FF77007168C8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9F0FFA71EF9FF77007168C8 /* Build configuration list for PBXProject "CAS-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9F0FFA31EF9FF77007168C8;
+			productRefGroup = A9F0FFAD1EF9FF77007168C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F0FFAB1EF9FF77007168C8 /* CAS-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9F0FFAA1EF9FF77007168C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F0FFBF1EF9FF77007168C8 /* LaunchScreen.storyboard in Resources */,
+				A9F0FFBC1EF9FF77007168C8 /* Assets.xcassets in Resources */,
+				A9F0FFBA1EF9FF77007168C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9F0FFA81EF9FF77007168C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F0FFB71EF9FF77007168C8 /* ViewController.m in Sources */,
+				A9F0FFB41EF9FF77007168C8 /* AppDelegate.m in Sources */,
+				A9F0FFB11EF9FF77007168C8 /* main.m in Sources */,
+				A9F0FFC91EFA004D007168C8 /* CAS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9F0FFB81EF9FF77007168C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F0FFB91EF9FF77007168C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9F0FFBD1EF9FF77007168C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9F0FFBE1EF9FF77007168C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9F0FFC11EF9FF77007168C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F0FFC21EF9FF77007168C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9F0FFC41EF9FF77007168C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CAS-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.iflab.hu.CAS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9F0FFC51EF9FF77007168C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CAS-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.iflab.hu.CAS-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9F0FFA71EF9FF77007168C8 /* Build configuration list for PBXProject "CAS-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F0FFC11EF9FF77007168C8 /* Debug */,
+				A9F0FFC21EF9FF77007168C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F0FFC31EF9FF77007168C8 /* Build configuration list for PBXNativeTarget "CAS-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F0FFC41EF9FF77007168C8 /* Debug */,
+				A9F0FFC51EF9FF77007168C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9F0FFA41EF9FF77007168C8 /* Project object */;
+}
